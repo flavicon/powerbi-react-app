@@ -6,7 +6,7 @@ import avatar from '../../assets/avatar.svg';
 const Home = (): JSX.Element => {
   return (
     <HomeContainer>
-      <Header title="Home" image={avatar} description_image="Avatar user" />
+      <Header title="Home page" image={avatar} description_image="Avatar user" />
       <section>
         
       </section>
