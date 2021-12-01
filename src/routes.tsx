@@ -1,6 +1,6 @@
 import { Routes as Router, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import SingIn from './pages/SingIn';
+import SingIn from './pages/SignIn';
 import NotFound from './pages/NotFound';
 
 const Routes = (): JSX.Element => {

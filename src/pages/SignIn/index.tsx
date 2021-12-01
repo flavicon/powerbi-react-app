@@ -13,9 +13,9 @@ const Login = (): JSX.Element => {
         <img src={ilustrationBi} alt="Ilustration Bi" />
       </SignInArt>
       <SignInBox>
-        <form>
+        <form method="POST">
           <img src={logoAcal} alt="Acal Home Center" />
-          <div>
+          <div className="contentForm">
             <div className="formInput">
               <label htmlFor="login">Login</label>
               <input type="text" name="login" id="login" />
@@ -27,6 +27,7 @@ const Login = (): JSX.Element => {
             <button>
               Entrar
             </button>
+            <a href="/login">Recuperar senha</a>
           </div>
         </form>
       </SignInBox>
