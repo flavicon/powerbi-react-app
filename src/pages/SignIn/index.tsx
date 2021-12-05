@@ -3,7 +3,7 @@ import { SignInContainer, SignInBox, SignInArt } from "./styles";
 import logoAcal from '../../assets/logo_acal.svg';
 import ilustrationBi from '../../assets/Humaaans.png';
 
-const Login = (): JSX.Element => {
+const SignIn = (): JSX.Element => {
   return (
     <SignInContainer>
       <SignInArt>
@@ -35,4 +35,4 @@ const Login = (): JSX.Element => {
   );
 }
 
-export default Login;
+export default SignIn;

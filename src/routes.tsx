@@ -7,7 +7,7 @@ const Routes = (): JSX.Element => {
   return(
     <Router>
       <Route path="/" element={<Home />} />
-      <Route path="/login" element={<SingIn />} />
+      <Route path="/signin" element={<SingIn />} />
       <Route path="*" element={<NotFound />} />
     </Router>
   );
